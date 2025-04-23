@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B75C4B32D1CD15700D84A7C /* MaruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0208D328F35E1B00C50221 /* MaruViewController.swift */; };
+		5B75C4B42D1CD15700D84A7C /* MaruViewController+Dialogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B5CCC291BEA8A00C00AE7 /* MaruViewController+Dialogue.swift */; };
+		5B75C4B52D1CD15700D84A7C /* MaruViewController+SpeechSynthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B5CCA291BE96E00C00AE7 /* MaruViewController+SpeechSynthesis.swift */; };
+		5B75C4B62D1CD15700D84A7C /* MaruViewController+SpeechRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B5CC8291BE8FC00C00AE7 /* MaruViewController+SpeechRecognition.swift */; };
+		5B75C4B72D1CD15700D84A7C /* FetchOpenAIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC141E52C984AFF006EC577 /* FetchOpenAIManager.swift */; };
+		5B75C4B82D1CD15700D84A7C /* FaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0298128F8F20700811BA0 /* FaceManager.swift */; };
+		5B75C52E2D22E2FA00D84A7C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B75C52D2D22E2FA00D84A7C /* ProfileViewController.swift */; };
+		5B75C5332D24F59400D84A7C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5B75C5322D24F59400D84A7C /* FirebaseAnalytics */; };
+		5B75C5352D24F8ED00D84A7C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5B75C5342D24F8ED00D84A7C /* FirebaseAuth */; };
+		5B75C5372D24F92100D84A7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B75C5362D24F92100D84A7C /* LoginViewController.swift */; };
+		5B75C56D2D24FFBB00D84A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B75C56A2D24FFBB00D84A7C /* AppDelegate.swift */; };
+		5B75C56E2D24FFBB00D84A7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B75C56B2D24FFBB00D84A7C /* ContentView.swift */; };
+		5B75C5B92D250E5A00D84A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B75C5B52D250E5A00D84A7C /* Main.storyboard */; };
+		5B75C5BA2D250E5A00D84A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B75C5B72D250E5A00D84A7C /* LaunchScreen.storyboard */; };
+		5B75C5F62D25112900D84A7C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 5B75C5F52D25112900D84A7C /* GoogleSignIn */; };
+		5B75C5F82D25112900D84A7C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5B75C5F72D25112900D84A7C /* GoogleSignInSwift */; };
+		5B75C5FA2D25119500D84A7C /* MainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B75C5F92D25119500D84A7C /* MainLoginViewController.swift */; };
+		5B75C5FF2D25327200D84A7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B75C5FE2D25327200D84A7C /* GoogleService-Info.plist */; };
+		5B75C6022D2556E100D84A7C /* UserRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B75C6012D2556E100D84A7C /* UserRegisterViewController.swift */; };
+		5B98A2AA2D53824800A0B42B /* pugnomincho-mini.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B98A2A92D53824800A0B42B /* pugnomincho-mini.otf */; };
+		5B98A2AC2D5386D300A0B42B /* TopHello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B98A2AB2D5386D300A0B42B /* TopHello.swift */; };
+		5B98A2AE2D5DF7E600A0B42B /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B98A2AD2D5DF7E600A0B42B /* background1.png */; };
+		5B98A2B02D5DFB6F00A0B42B /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B98A2AF2D5DFB6F00A0B42B /* background2.png */; };
+		5B9A7BAB2D5E00A4000A61A6 /* background6.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B9A7BAA2D5E00A4000A61A6 /* background6.png */; };
+		5B9A7BAD2D6C9BE3000A61A6 /* CustomRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9A7BAC2D6C9BE3000A61A6 /* CustomRightButton.swift */; };
+		5BC141E92C984B48006EC577 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 5BC141E82C984B48006EC577 /* OpenAI */; };
+		5BCB6AF82C8BFB020069BD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB6AF72C8BFB020069BD61 /* Assets.xcassets */; };
+		5BF11C962D5375F200E7A841 /* CustomGradButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11C952D5375F200E7A841 /* CustomGradButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		009B5CC8291BE8FC00C00AE7 /* MaruViewController+SpeechRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaruViewController+SpeechRecognition.swift"; sourceTree = "<group>"; };
+		009B5CCA291BE96E00C00AE7 /* MaruViewController+SpeechSynthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaruViewController+SpeechSynthesis.swift"; sourceTree = "<group>"; };
+		009B5CCC291BEA8A00C00AE7 /* MaruViewController+Dialogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaruViewController+Dialogue.swift"; sourceTree = "<group>"; };
+		5B75C52D2D22E2FA00D84A7C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5B75C5362D24F92100D84A7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5B75C56A2D24FFBB00D84A7C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B75C56B2D24FFBB00D84A7C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B75C5B62D250E5A00D84A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B75C5B82D250E5A00D84A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B75C5F92D25119500D84A7C /* MainLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLoginViewController.swift; sourceTree = "<group>"; };
+		5B75C5FE2D25327200D84A7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B75C6012D2556E100D84A7C /* UserRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterViewController.swift; sourceTree = "<group>"; };
+		5B98A2A92D53824800A0B42B /* pugnomincho-mini.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pugnomincho-mini.otf"; sourceTree = "<group>"; };
+		5B98A2AB2D5386D300A0B42B /* TopHello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHello.swift; sourceTree = "<group>"; };
+		5B98A2AD2D5DF7E600A0B42B /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		5B98A2AF2D5DFB6F00A0B42B /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		5B9A7BAA2D5E00A4000A61A6 /* background6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background6.png; sourceTree = "<group>"; };
+		5B9A7BAC2D6C9BE3000A61A6 /* CustomRightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRightButton.swift; sourceTree = "<group>"; };
+		5BC141E52C984AFF006EC577 /* FetchOpenAIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchOpenAIManager.swift; sourceTree = "<group>"; };
+		5BCB6AF72C8BFB020069BD61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BF11C952D5375F200E7A841 /* CustomGradButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradButton.swift; sourceTree = "<group>"; };
+		8C0208CC28F35E1B00C50221 /* MARU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MARU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0208D328F35E1B00C50221 /* MaruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaruViewController.swift; sourceTree = "<group>"; };
+		8C0208DD28F35E1E00C50221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD0298128F8F20700811BA0 /* FaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C0208C928F35E1B00C50221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B75C5F82D25112900D84A7C /* GoogleSignInSwift in Frameworks */,
+				5B75C5332D24F59400D84A7C /* FirebaseAnalytics in Frameworks */,
+				5B75C5F62D25112900D84A7C /* GoogleSignIn in Frameworks */,
+				5B75C5352D24F8ED00D84A7C /* FirebaseAuth in Frameworks */,
+				5BC141E92C984B48006EC577 /* OpenAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C0208C328F35E1B00C50221 = {
+			isa = PBXGroup;
+			children = (
+				8C0208CE28F35E1B00C50221 /* MARU */,
+				8C0208CD28F35E1B00C50221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C0208CD28F35E1B00C50221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0208CC28F35E1B00C50221 /* MARU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C0208CE28F35E1B00C50221 /* MARU */ = {
+			isa = PBXGroup;
+			children = (
+				5B9A7BAA2D5E00A4000A61A6 /* background6.png */,
+				5B98A2AF2D5DFB6F00A0B42B /* background2.png */,
+				5B98A2AD2D5DF7E600A0B42B /* background1.png */,
+				5B98A2A92D53824800A0B42B /* pugnomincho-mini.otf */,
+				5B75C5B72D250E5A00D84A7C /* LaunchScreen.storyboard */,
+				5B75C5B52D250E5A00D84A7C /* Main.storyboard */,
+				5BCB6AF72C8BFB020069BD61 /* Assets.xcassets */,
+				5B75C56A2D24FFBB00D84A7C /* AppDelegate.swift */,
+				5B75C56B2D24FFBB00D84A7C /* ContentView.swift */,
+				8C0208D328F35E1B00C50221 /* MaruViewController.swift */,
+				009B5CCC291BEA8A00C00AE7 /* MaruViewController+Dialogue.swift */,
+				009B5CCA291BE96E00C00AE7 /* MaruViewController+SpeechSynthesis.swift */,
+				009B5CC8291BE8FC00C00AE7 /* MaruViewController+SpeechRecognition.swift */,
+				5BC141E52C984AFF006EC577 /* FetchOpenAIManager.swift */,
+				8CD0298128F8F20700811BA0 /* FaceManager.swift */,
+				8C0208DD28F35E1E00C50221 /* Info.plist */,
+				5B75C5FE2D25327200D84A7C /* GoogleService-Info.plist */,
+				5B75C52D2D22E2FA00D84A7C /* ProfileViewController.swift */,
+				5B75C5362D24F92100D84A7C /* LoginViewController.swift */,
+				5B75C5F92D25119500D84A7C /* MainLoginViewController.swift */,
+				5B75C6012D2556E100D84A7C /* UserRegisterViewController.swift */,
+				5BF11C952D5375F200E7A841 /* CustomGradButton.swift */,
+				5B9A7BAC2D6C9BE3000A61A6 /* CustomRightButton.swift */,
+				5B98A2AB2D5386D300A0B42B /* TopHello.swift */,
+			);
+			path = MARU;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C0208CB28F35E1B00C50221 /* MARU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0208E028F35E1E00C50221 /* Build configuration list for PBXNativeTarget "MARU" */;
+			buildPhases = (
+				8C0208C828F35E1B00C50221 /* Sources */,
+				8C0208C928F35E1B00C50221 /* Frameworks */,
+				8C0208CA28F35E1B00C50221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MARU;
+			packageProductDependencies = (
+				5BC141E82C984B48006EC577 /* OpenAI */,
+				5B75C5322D24F59400D84A7C /* FirebaseAnalytics */,
+				5B75C5342D24F8ED00D84A7C /* FirebaseAuth */,
+				5B75C5F52D25112900D84A7C /* GoogleSignIn */,
+				5B75C5F72D25112900D84A7C /* GoogleSignInSwift */,
+			);
+			productName = MODOC;
+			productReference = 8C0208CC28F35E1B00C50221 /* MARU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C0208C428F35E1B00C50221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8C0208CB28F35E1B00C50221 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C0208C728F35E1B00C50221 /* Build configuration list for PBXProject "MARU" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C0208C328F35E1B00C50221;
+			packageReferences = (
+				5BC141E72C984B48006EC577 /* XCRemoteSwiftPackageReference "OpenAI" */,
+				5B75C52F2D24F4E800D84A7C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5B75C5F42D25112900D84A7C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 8C0208CD28F35E1B00C50221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C0208CB28F35E1B00C50221 /* MARU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C0208CA28F35E1B00C50221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9A7BAB2D5E00A4000A61A6 /* background6.png in Resources */,
+				5BCB6AF82C8BFB020069BD61 /* Assets.xcassets in Resources */,
+				5B98A2AE2D5DF7E600A0B42B /* background1.png in Resources */,
+				5B98A2B02D5DFB6F00A0B42B /* background2.png in Resources */,
+				5B98A2AA2D53824800A0B42B /* pugnomincho-mini.otf in Resources */,
+				5B75C5FF2D25327200D84A7C /* GoogleService-Info.plist in Resources */,
+				5B75C5BA2D250E5A00D84A7C /* LaunchScreen.storyboard in Resources */,
+				5B75C5B92D250E5A00D84A7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C0208C828F35E1B00C50221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B75C6022D2556E100D84A7C /* UserRegisterViewController.swift in Sources */,
+				5B75C56D2D24FFBB00D84A7C /* AppDelegate.swift in Sources */,
+				5B75C5372D24F92100D84A7C /* LoginViewController.swift in Sources */,
+				5B75C56E2D24FFBB00D84A7C /* ContentView.swift in Sources */,
+				5B98A2AC2D5386D300A0B42B /* TopHello.swift in Sources */,
+				5B75C4B32D1CD15700D84A7C /* MaruViewController.swift in Sources */,
+				5B75C4B42D1CD15700D84A7C /* MaruViewController+Dialogue.swift in Sources */,
+				5B75C4B52D1CD15700D84A7C /* MaruViewController+SpeechSynthesis.swift in Sources */,
+				5B75C4B62D1CD15700D84A7C /* MaruViewController+SpeechRecognition.swift in Sources */,
+				5BF11C962D5375F200E7A841 /* CustomGradButton.swift in Sources */,
+				5B9A7BAD2D6C9BE3000A61A6 /* CustomRightButton.swift in Sources */,
+				5B75C52E2D22E2FA00D84A7C /* ProfileViewController.swift in Sources */,
+				5B75C4B72D1CD15700D84A7C /* FetchOpenAIManager.swift in Sources */,
+				5B75C4B82D1CD15700D84A7C /* FaceManager.swift in Sources */,
+				5B75C5FA2D25119500D84A7C /* MainLoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B75C5B52D250E5A00D84A7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B75C5B62D250E5A00D84A7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B75C5B72D250E5A00D84A7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B75C5B82D250E5A00D84A7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C0208DE28F35E1E00C50221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C0208DF28F35E1E00C50221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C0208E128F35E1E00C50221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MARU/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MARU;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MARU needs access to the microphone so you can talk to him.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "MARU uses speech recognition to understand what you are saying to him.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = logainapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0208E228F35E1E00C50221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MARU/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MARU;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MARU needs access to the microphone so you can talk to him.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "MARU uses speech recognition to understand what you are saying to him.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = logainapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C0208C728F35E1B00C50221 /* Build configuration list for PBXProject "MARU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0208DE28F35E1E00C50221 /* Debug */,
+				8C0208DF28F35E1E00C50221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0208E028F35E1E00C50221 /* Build configuration list for PBXNativeTarget "MARU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0208E128F35E1E00C50221 /* Debug */,
+				8C0208E228F35E1E00C50221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B75C52F2D24F4E800D84A7C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+		5B75C5F42D25112900D84A7C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		5BC141E72C984B48006EC577 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B75C5322D24F59400D84A7C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B75C52F2D24F4E800D84A7C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5B75C5342D24F8ED00D84A7C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B75C52F2D24F4E800D84A7C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5B75C5F52D25112900D84A7C /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B75C5F42D25112900D84A7C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		5B75C5F72D25112900D84A7C /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B75C5F42D25112900D84A7C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		5BC141E82C984B48006EC577 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BC141E72C984B48006EC577 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8C0208C428F35E1B00C50221 /* Project object */;
+}

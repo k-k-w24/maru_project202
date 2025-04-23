@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bHt-SN-mR0">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AIM" translatesAutoresizingMaskIntoConstraints="NO" id="vrT-OV-daw">
+                                <rect key="frame" x="0.0" y="-0.3333333333333357" width="852" height="392.33333333333331"/>
+                                <variation key="heightClass=compact-widthClass=regular" image="AIM"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dka-f9-MxL"/>
+                        <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="vrT-OV-daw" firstAttribute="top" secondItem="bHt-SN-mR0" secondAttribute="top" id="77G-Zc-C4v"/>
+                            <constraint firstAttribute="trailing" secondItem="vrT-OV-daw" secondAttribute="trailing" id="JbE-NG-3ms"/>
+                            <constraint firstItem="vrT-OV-daw" firstAttribute="bottom" secondItem="bHt-SN-mR0" secondAttribute="bottom" id="Vlt-pj-99g"/>
+                            <constraint firstItem="vrT-OV-daw" firstAttribute="leading" secondItem="bHt-SN-mR0" secondAttribute="leading" id="nQt-gd-2gn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AIM" width="495" height="296"/>
+    </resources>
+</document>
